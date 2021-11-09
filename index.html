@@ -15,9 +15,39 @@
     <br>
     <hr>
 
-    <div class="btn1">+</div>
-    <div class="result"></div>
-    <div class="btn2">-</div>
+    <div class="btn1">
+    
+        <button onclick="increment">+</button>
+    
+    </div>
+    <br>
+
+
+    <div class="result">
+        <input id="result" type="number">
+        <span id="resultado" type="text"></span>
+    </div>
+    <br>
+
+
+    <div class="btn2">
+        <button onclick="decrement">-</button>
+    </div>
+
+    <script>
+        let btn1 = document.querySelector('#result')
+        let btn2 = document.querySelector('#result')
+        let result = document.querySelector('span')
+
+        function increment(){  
+            result.innerHTML = btn1 + 1
+        }
+
+        function decrement(){
+            result.innerHTML = btn2 - 1
+        }
+    </script>
+
 
 
 

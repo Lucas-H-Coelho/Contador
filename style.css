@@ -7,7 +7,7 @@
 /*Botão +*/
 .btn1{
     margin: auto;
-    padding: 10px, 8px;
+    padding: 40px, 32px;
     width: 50px;
     color: white;
     background-color: rgb(93, 199, 6);
@@ -27,7 +27,7 @@
 /*Botão -*/
 .btn2{
     margin: auto;
-    padding: 10px, 8px;
+    padding: 40px, 32px;
     width: 50px;
     color: white;
     background-color: rgb(93, 199, 6);
@@ -50,5 +50,8 @@
     width: 10px;
     margin: auto;
     background-color: grey;
+    text-align: center;
+    border: 2px solid indigo;
+    border-radius: 10px;
 
 }
