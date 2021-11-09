@@ -1,5 +1,6 @@
 .body{
     background-color: #c0700763;
+
 }
 
 .painel{
@@ -17,6 +18,7 @@
 }
 
 .contador{
+    font-family: monospace;
     padding: 7px 30px;
     border-color: #3498db;
     color: fff;
@@ -29,6 +31,7 @@
 
 .contador:hover{
     box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+    color: #0099ff;
 }
 
 .reset{
@@ -45,8 +48,20 @@
 
 .reset:hover{
     box-shadow: 0 0 7px 0 #c07007 inset, 0 0 7px 4px #c07007;
+    color: #fa8e00;
 }
 
+/** Alinhamento dos botões**/
 .central{
     text-align: center;
+}
+
+.texto{
+    text-align: center;
+    color: #c07007;
+    
+}
+
+.texto:hover{
+    color: goldenrod;
 }

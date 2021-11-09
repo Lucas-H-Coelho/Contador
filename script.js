@@ -1,7 +1,11 @@
 const btnIncrementar$ = document.getElementById("btn_incrementar");
+
 const btnDecrementar$ = document.getElementById("btn_decrementar");
+
 const btnReset$ = document.getElementById("btn_reset");
+
 const p$ = document.getElementById("contador");
+
 
     let contador = 0;
      
