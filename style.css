@@ -1,0 +1,16 @@
+/*Aplicando as propriedades para o body*/
+body{
+    position: absolute;
+    left: 0%;
+    text-align: center;
+ }
+ 
+ /*Classes de CSS*/
+
+ .pit{
+     justify-content: center;
+     align-items: center;
+     display:flex;
+     height: 100%;
+     text-align: center;
+ }
