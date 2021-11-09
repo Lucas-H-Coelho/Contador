@@ -1,15 +1,23 @@
+.body{
+    background-color: #c0700763;
+}
+
 .painel{
-    width: center;
+    color: #f5c991;
+    padding: 50px 50px;
+    width: 120px;
+    background-color: #c07007;
+    border-radius: 100%;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100px;
-    width: center;
     margin: auto;
 
 
 }
 
 .contador{
-    width: auto;
+    padding: 7px 30px;
     border-color: #3498db;
     color: fff;
     box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
@@ -24,7 +32,8 @@
 }
 
 .reset{
-    width: auto;
+    display: inline;
+    padding: 7px 32px;
     border-color: #c07007;
     color: fff;
     box-shadow: 0 0 40px 40px #c07007 inset, 0 0 0 0 #c07007;
@@ -36,4 +45,8 @@
 
 .reset:hover{
     box-shadow: 0 0 7px 0 #c07007 inset, 0 0 7px 4px #c07007;
+}
+
+.central{
+    text-align: center;
 }
