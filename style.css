@@ -4,7 +4,7 @@ body{
     left: 0%;
     text-align: center;
  }
- 
+
  /*Classes de CSS*/
 
  .pit{
@@ -14,3 +14,39 @@ body{
      height: 100%;
      text-align: center;
  }
+
+ /*Aplicando as propriedades na tag do botão*/
+
+ button{
+     width: 90px;
+     height: 60px;
+     font-size: 30px;
+     background-color: green;
+     color: honeydew;
+ }
+
+ /*Aplicando efeito de hover na tag do botão*/
+
+ button:hover{
+     background-color: greenyellow;
+     color: grey;
+
+ }
+
+ /*Aplicando as propriedades de css na tag h2*/
+
+ h2{
+     color: black;
+     margin: 0 50px;
+     font-size: 45px;
+ }
+
+ /*Aplicando as propriedades de css na tag h2*/
+
+ h1{
+     font-size: 35px;
+     color: green;
+     text-align: center;
+     padding-left: 10%;
+ }
+
