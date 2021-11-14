@@ -1,1 +1,1 @@
-www.contador-mais-menos.netlify.app
+https://contador-mais-menos.netlify.app
