@@ -1,1 +1,1 @@
-relaxed-gates-8d4c52.netlify.app
+contador-mais-menos.netlify.app
