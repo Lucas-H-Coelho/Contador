@@ -47,8 +47,8 @@
 }
 
 .reset:hover{
-    box-shadow: 0 0 7px 0 #c07007 inset, 0 0 7px 4px #c07007;
-    color: #fa8e00;
+    cursor: pointer;
+    color: #f5c991;
 }
 
 /** Alinhamento dos botões**/
