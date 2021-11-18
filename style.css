@@ -8,47 +8,74 @@
     padding: 50px 50px;
     width: 120px;
     background-color: #c07007;
-    border-radius: 100%;
+    border-radius: 50%;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100px;
     margin: auto;
+    box-shadow: 2px 2px 2px black;
 
 
 }
 
-.contador{
+.incrementar{
     font-family: monospace;
     padding: 7px 30px;
-    border-color: #3498db;
-    color: fff;
-    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
-    -webkit-transition: all 150ms ease-in-out;
-    transition: all 150ms ease-in-out;
+    background-color: #09ff00;
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px black;
+   
 
 
 }
 
-.contador:hover{
-    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
-    color: #0099ff;
-}
-
-.reset{
-    display: inline;
-    padding: 7px 32px;
-    border-color: #c07007;
-    color: fff;
-    box-shadow: 0 0 40px 40px #c07007 inset, 0 0 0 0 #c07007;
-    -webkit-transition: all 150ms ease-in-out;
-    transition: all 150ms ease-in-out;
+.incrementar:hover{
+    cursor: pointer;
+    background-color: #57d368;
+    border-radius: 3px;
+    border: 0;
 
     
 }
 
-.reset:hover{
+.decrementar{
+    font-family: monospace;
+    padding: 7px 30px;
+    background-color: #ff0000;
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px black;
+   
+
+
+}
+
+.decrementar:hover{
     cursor: pointer;
-    color: #f5c991;
+    background-color: #ec2929bb;
+    border-radius: 3px;
+    border: 0;
+
+    
+}
+
+
+
+#btn_reset{
+ padding: 7px 30px;
+ background-color: #c07007;
+ border: 2px;
+ border-radius: 3px;
+ 
+ 
+
+    
+}
+
+#btn_reset:hover{
+    cursor: pointer;
+    background-color: #f5c991;
 }
 
 /** Alinhamento dos botões**/
@@ -56,12 +83,13 @@
     text-align: center;
 }
 
-.texto{
+h1{
     text-align: center;
     color: #c07007;
     
 }
 
-.texto:hover{
+h1:hover{
+    cursor:default;
     color: goldenrod;
 }
